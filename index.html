@@ -4,24 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>หน้าหลัก (Index)</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* CSS เชื่อมใน (Internal CSS) */
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        .header h2 {
+            color: #333;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
 
     <div class="main-container">
         <div class="header">
-            <h2>การเชื่อมCSSแบบเชื่อมในและนอก</h2>
+            <h2>การเชื่อม CSS แบบเชื่อมในและนอก</h2>
         </div>
 
         <ul class="menu-list">
             <li class="menu-item">
-                <a href="Css.html">>>> CSSเชื่อมใน <<<</a>
+                <a href="Css.html">>>> CSS เชื่อมใน <<<</a>
             </li>
-
             <li class="menu-item">
-                <a href="1.1.html">>>> CSSเชื่อมนอก <<<</a>
+                <a href="1.1.html">>>> CSS เชื่อมนอก <<<</a>
             </li>
-
         </ul>
+    </div>
 
 </body>
 </html>
